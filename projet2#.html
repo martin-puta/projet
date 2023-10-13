@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="style3.css">
+ <title>Sunnyside Agency | We Are Creatives</title>
+</head>
+<body>
+
+  
+  <div class="header">
+    <div class="container">
+       <div class="navbar">
+      <div class="logo">
+        <a href="index.html"><img src="logo.svg" width="125px"></a>
+      </div>
+      <nav id="Menu">
+        <ul id="MenuItems">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <button><a href="#">Contact</a></button>
+        <div class="menu-icon" onclick="menutoggle()">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+      
+
+      <div class="header-main">
+        <h1>We Are Creatives</h1>
+        <div class="food">
+        <img src="icon-arrow-down.svg">
+      </div>
+      </div>
+  </div>
+  </div>
+
+  
+
+  <section class="split-screen-about">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-2">
+          <div class="text-info">
+          <h2>Transform your brand</h2>
+          <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.
+          </p>
+          <a href="#" class="learn-more">Learn More</a>
+        </div>
+        </div>
+        <div class="col-2">
+          <img src="image-transform.jpg">
+        </div>
+      </div>
+
+      <div class="row" id="standOut">
+        <div class="col-2">
+          <img src="image-stand-out.jpg" alt="">
+        </div>
+        <div class="col-2">
+          <div class="text-info">
+          <h2>Stand out to the right audience</h2>
+          <p>  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+          </p>
+          <a href="#" class="learn-more-red">Learn More</a>
+        </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2">
+
+          <img src="image-graphic-design (1).jpg">
+          <div class="item-description">
+          <h2 class="graphic-design">Graphic Design</h2>
+          <p class="graphic-design">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        </div>
+        </div>
+      
+        <div class="col-2">
+
+          <img src="image-photography.jpg">
+          <div class="item-description">
+          <h2 class="graphic-design">Photography</h2>
+          <p class="graphic-design photography">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  
+
+  <section class="client-testimonials">
+    <div class="small-container">
+      <h3>Client Testimonials</h3>
+      <div class="row">
+        <div class="col-3">
+          <img src="image-emily.jpg">
+          <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <p class="client-name">Emily R.</p>
+          <p class="client-title">Marketing Director</p>
+        </div>
+
+        <div class="col-3">
+          <img src="image-thomas.jpg">
+          <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+          <p class="client-name">Thomas S.</p>
+          <p class="client-title">Chief Operating Officer</p>
+        </div>
+
+        <div class="col-3">
+          <img src="image-jennie.jpg">
+          <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <p class="client-name">Jennie F.</p>
+          <p class="client-title">Business Owner</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  
+
+  <section class="bottom-image-border">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-4">
+          <img src="image-gallery-milkbottles.jpg">
+          <img src="image-gallery-orange.jpg">
+          <img src="image-gallery-cone.jpg">
+          <img src="image-gallery-sugarcubes.jpg">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  
+
+  <footer>
+    <div class="brand-name">
+      <h2>sunnyside</h2>
+      <div class="misc-footer">
+        <ul>
+          <li><a  href="#">About</a></li>
+          <li><a  href="#">Services</a></li>
+          <li><a  href="#">Projects</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-square icons"></i></a>
+      <a href="#"><i class="fab fa-instagram icons"></i></a>
+      <a href="#"><i class="fab fa-twitter icons"></i></a>
+      <a href="#"><i class="fab fa-pinterest icons"></i></a>
+    </div>
+
+  </footer>
+</body>
+</html>
+<div class="container">
+    <img src="image-header.jpg">
+    <div class="image"><img src="logo.svg" alt=""></div>
+    <div class="fig"><img src="icon-arrow-down.svg" alt=""></div>
+    <h1 class="mon-class">WE ARE CREATIVES</h1>
+    <h5 class="food1">About</h5>
+    <h5 class="food2">Services</h5>
+    <h5 class="food3">Projects</h5>
+    <button class="mon-bouton">Contact</button>
+</div>
+
+.container{
+    z-index: 0;
+    background-size: cover;
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+img{
+    width: 100%;
+    max-height: 800px;
+}
+.image::before{
+    content: url(logo.svg);
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    }
+
+   .image{
+    z-index: 1;
+   }
+   nav {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    text-decoration-color: aliceblue;
+  }
+  nav {
+    color: rgb(252, 248, 248);
+    font-size: 20px;
+    font-family: Arial;
+  }
+
+  .fig{
+   flex-basis: 50%;
+   position: absolute;
+   top: 420px;
+   left: 900px;
+   z-index: 1;
+   place-items: center;
+}
+
+.container{
+    z-index: 0;
+    background-size: cover;
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+img{
+    width: 100%;
+    max-height: 800px;
+}
+.image::before{
+    content: url(logo.svg);
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    }
+
+   .image{
+    z-index: 1;
+   }
+   nav {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    text-decoration-color: aliceblue;
+  }
+  nav {
+    color: rgb(252, 248, 248);
+    font-size: 20px;
+    font-family: Arial;
+  }
+
+  .fig{
+   flex-basis: 50%;
+   position: absolute;
+   top: 420px;
+   left: 900px;
+   z-index: 1;
+   place-items: center;
+}
+.mon-class{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    font-size: 65px;
+    color: aliceblue;
+
+}
+.food1{
+position: absolute;
+top: 20px;
+left: 1400px;
+color: aliceblue;
+}
+.food2{
+position: absolute;
+top: 20px;
+left: 1500px;
+color: aliceblue;
+}
+.food3{
+position: absolute;
+top: 20px;
+left: 1600px;
+color: aliceblue;
+}
+.mon-bouton {
+    background-color: hwb(0 98% 1%);
+    color: rgb(14, 13, 13);
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .mon-bouton {
+   position: absolute;
+   top: 25px;
+   left: 1700px;
+  }
